@@ -1,0 +1,27 @@
+
+body{
+    background-image: url(image/weblogo.jpg);
+    background-repeat:no-repeat;
+    background-position:top right;
+    background-attachment:fixed;
+
+}
+         p {   
+              font-size:20pt;
+              font-family:sans-serif,fantasy;
+             }
+       
+          h1 {
+              color:brown
+                  
+          }
+          em {
+              color:crimson;
+              font-weight:bolder;
+            }
+          .s{
+              color:cadetblue
+          }
+          a { text-decoration: none;
+           color:darkmagenta }
+h2{color:chocolate}
