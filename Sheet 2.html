@@ -1,0 +1,74 @@
+<!doctype  html>
+<html>
+
+   <head> 
+    
+   <title> Sheet 2- Coronavirus Form </title> 
+    <meta charset="utf-8">
+   </head>
+    
+   <body>
+    <h1>Coronavirus Intake Form for attend class</h1> 
+       <p> For all of our safety, please fill this out 24 hours prior to each calss (until further notice). Be sure that the information you'll give is accurate and complete. Please get immediate medical attention if you have any of the severe COVID-19 signs.</p>
+    <form action="index.html">
+  <fieldset>
+    <legend>Personal information:</legend>
+    <label for="fname">First name:</label><br>
+    <input type="text" id="fname" name="fname"required ><br>
+    <label for="lname">Last name:</label><br>
+    <input type="text" id="lname" name="lname"><br>
+    <label for="DOB">Date of Brith:</label><br>
+    <input type='date' id="DOB" name="DOB" min="2005-1-1"><br>
+    <label for="phone">phone:</label><br>
+    <input type="tel" id="phone" name="phone"><br>
+    <label for="email">Email:</label><br>
+    <input type="email" id="email" name="email" ><br><br>
+             <!-- Radio-->
+            <label for="app">Do you have "- تطمئن -تباعد - توكلنا " APPs in your phone:</label>
+            <input type="radio" id="yes" name="app" value='yes'>
+           <label for="yes">YES</label>
+           <input type="radio" id="no" name="app" value='no'>
+           <label for='no'>NO </label>
+           <br><br>
+     </fieldset> <br>
+  <fieldset>
+    <legend>Class inforamtion:</legend>
+     <label for="class">Choose class: </label>
+    <input list="classs" name="class"> 
+    <datalist id="classs">
+    <option value="204IT: Web programming">
+    <option value="201 CS: programming1">
+    <option value="202 Cs: programmiing 2">
+    <option value="412 Cs: computer ethic">
+  </datalist>
+      <br> <br>
+      <label for="message">please explain why you you need to attand lab </label><br><br>
+      <textarea name="message" rows="10" cols="30"></textarea>
+  </fieldset> <br>
+    <fieldset>
+    <legend>Heath Inforamtion:</legend>
+    <label for="rang1"> How healthy do you feel in general?</label><br>
+   0 <input type="range" id='rang1' name='hr' max="10" min="0"> 10
+        <br>
+         <!-- checkbox-->
+           <label >Check the symptoms that you have experienced in the PAST Week:</label><br>
+           <input type='checkbox' id='c1' name='c1' value ='Fever'>
+           <label for='c1'> Fever/Chills</label><br>
+            <input type='checkbox' id='c2' name='c2'value='Headaches'>
+           <label for='c2'>Headaches</label><br>
+           <input type='checkbox' id='c3' name='c3' value='Coughing'>
+           <label for='c3'>Coughing</label><br>
+           <input type='checkbox' id='c4' name='c4' value='Shortnessofbreath'>
+           <label for='c4'>Shortness of breath</label><br>
+        <input type='checkbox' id='c5' name='c5' value='losssmell'>
+           <label for='c5'>Recent loss of sense of smell or taste</label><br>
+    </fieldset>
+        <br><br>
+          
+          <input type="submit" value="send" >
+         
+        
+        
+    </form>    
+    </body>
+</html>

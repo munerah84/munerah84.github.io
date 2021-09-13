@@ -1,0 +1,57 @@
+<!doctype  html>
+<html>
+
+   <head> 
+    
+   <title> Form</title> 
+    <meta charset="utf-8">
+   </head>
+   <body>
+   <h1> Form  checkbox & radio</h1>    
+     <form  action="index.html" method="get">
+          <label for="uname">USER NAME:</label>
+          <input type='text' id="uname" name="username" required><br><br>
+         <!-- Radio-->
+            <label for="gender">Gender:</label>
+            <input type="radio" id="male" name="gender" value='male'>
+           <label for="male">Male</label>
+           <input type="radio" id="female" name="gender" value='female'>
+           <label for='female'>Female </label>
+           <br><br>
+           <!-- checkbox-->
+           <label >Skills:</label><br>
+           <input type='checkbox' id='c1' name='skills' value ='fastreading'>
+           <label for='c1'> fast reading</label><br>
+            <input type='checkbox' id='c2' name='skills' value='coding'>
+           <label for='c1'>coding</label><br>
+           <br><br>
+           <!-- type=color -->
+           <lable for='fcolor'>favortor color:</lable>
+           <input type='color' id="fcolor" name='fc'>
+            <br><br>
+           <!-- date -->
+          <label for='DOB'>date of birth</label>
+         <input type='date' id="DOB" name='DOB' max="2004-12-31" min="1980-12-31">
+           <br><br>
+         
+         <!-- datetime --> 
+         <label for="app">meet time</label>
+         <input type='datetime-local' id='app' name='dt'>
+         <br><br>
+         
+         <!-- email -->
+         <label for="em">EMAIL:</label>
+         <input type="email" id="em" name="email" required >
+         <br><br>
+         
+         
+          <input type='submit' value="login" >
+     
+      </form>
+       
+    </body>
+
+
+
+
+</html>
